@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T11:59:04 IST" name="Default suite" finished-at="2024-02-06T11:59:13 IST" duration-ms="9153">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T11:59:04 IST" name="Default test" finished-at="2024-02-06T11:59:13 IST" duration-ms="9153">
+      <class name="testing.admin_exe">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:04 IST" name="launch" finished-at="2024-02-06T11:59:10 IST" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="credentials()[pri:1, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:10 IST" name="credentials" finished-at="2024-02-06T11:59:10 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:10 IST" name="getResult" finished-at="2024-02-06T11:59:10 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=credentials status=SUCCESS method=admin_exe.credentials()[pri:1, instance:testing.admin_exe@1ecee32c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="button()[pri:2, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:11 IST" name="button" finished-at="2024-02-06T11:59:12 IST" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- button -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:12 IST" name="getResult" finished-at="2024-02-06T11:59:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=button status=SUCCESS method=admin_exe.button()[pri:2, instance:testing.admin_exe@1ecee32c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testing.admin_exe@1ecee32c]" started-at="2024-02-06T11:59:12 IST" name="endReport" finished-at="2024-02-06T11:59:13 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testing.admin_exe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
